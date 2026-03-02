@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
 
-  // Shortcode
+  // Shortcode for transmissions
   eleventyConfig.addShortcode("transmission", function(title, text) {
     return `
       <div class="transmission">
@@ -10,14 +10,14 @@ module.exports = function(eleventyConfig) {
     `;
   });
 
-  // Copy styles folder
+  // Copy the styles folder
   eleventyConfig.addPassthroughCopy("styles");
 
+  // Use default directories
   return {
     dir: {
-      input: ".",
-      includes: "_includes",
-      output: "_UX815-ll"
+      input: ".",            // source files
+      includes: "_includes"  // layouts
     }
   };
 };
