@@ -1,22 +1,27 @@
----
-title: 11ty Boilerplate
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title }}</title>
-  <link rel="stylesheet" href="/styles/screen.css">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+
+<header>
+  <h1>🌌 Deep Space Transmission Logs</h1>
   <nav>
-    <ul>
-      <li><a href="/" title="Go home">Home</a></li>
-      <li><a href="/about/" title="About the boilerplate">About</a></li>
-    </ul>
+    <a href="/">Home</a>
+    <a href="/about/">About</a>
   </nav>
-    {{ content }}
+</header>
+
+<main>
+  {{ content }}
+</main>
+
+<footer>
+  <p>Signal Archive • Year 4821 • Human Explorer Program</p>
+</footer>
+
 </body>
 </html>
