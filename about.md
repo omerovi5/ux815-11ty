@@ -3,5 +3,11 @@ layout: layout.liquid
 title: About
 ---
 
-# About the 11ty **Boilerplate**
-<img class="about" alt="pine" src="/images/pine.png" width="50" />
+## About This Archive
+
+I am the last confirmed human explorer beyond the Orion Drift.
+
+These transmissions are automatic logs recorded by my ship's AI
+as I travel through collapsing star systems and abandoned worlds.
+
+If you are reading this — humanity still echoes somewhere.
